@@ -38,8 +38,6 @@ const MainContent = () => {
       filteredProducts = filteredProducts.filter(
         (product) => product.category === selectedCategory
       );
-
-      console.log(filteredProducts);
     }
 
     if (minPrice !== undefined) {
